@@ -1,0 +1,923 @@
+code-t0/mocks/FakeRandomMinute.c:38:48: style:inconclusive: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'. [funcArgNamesDifferent]
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                               ^
+code-t0/mocks/FakeRandomMinute.h:32:48: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'.
+void FakeRandomMinute_SetFirstAndIncrement(int seed, int increment);
+                                               ^
+code-t0/mocks/FakeRandomMinute.c:38:48: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'.
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                               ^
+code-t0/mocks/FakeRandomMinute.c:38:55: style:inconclusive: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'. [funcArgNamesDifferent]
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                                      ^
+code-t0/mocks/FakeRandomMinute.h:32:58: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'.
+void FakeRandomMinute_SetFirstAndIncrement(int seed, int increment);
+                                                         ^
+code-t0/mocks/FakeRandomMinute.c:38:55: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'.
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                                      ^
+code-t0/unity/HomeAutomation/LightSchedulerTest.c:38:1: error: There is an unknown macro here somewhere. Configuration is required. If TEST_GROUP is a macro then please configure it. [unknownMacro]
+TEST_GROUP(LightScheduler)
+^
+code-t1/mocks/FakeRandomMinute.c:38:48: style:inconclusive: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'. [funcArgNamesDifferent]
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                               ^
+code-t1/mocks/FakeRandomMinute.h:32:48: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'.
+void FakeRandomMinute_SetFirstAndIncrement(int seed, int increment);
+                                               ^
+code-t1/mocks/FakeRandomMinute.c:38:48: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'.
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                               ^
+code-t1/mocks/FakeRandomMinute.c:38:55: style:inconclusive: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'. [funcArgNamesDifferent]
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                                      ^
+code-t1/mocks/FakeRandomMinute.h:32:58: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'.
+void FakeRandomMinute_SetFirstAndIncrement(int seed, int increment);
+                                                         ^
+code-t1/mocks/FakeRandomMinute.c:38:55: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'.
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                                      ^
+code-t1/mocks/IO/FakeMicroTime.c:35:50: style:inconclusive: Function 'FakeMicroTime_Init' argument 2 names different: declaration 'increment' definition 'incr'. [funcArgNamesDifferent]
+void FakeMicroTime_Init(uint32_t start, uint32_t incr)
+                                                 ^
+code-t1/mocks/IO/FakeMicroTime.h:32:50: note: Function 'FakeMicroTime_Init' argument 2 names different: declaration 'increment' definition 'incr'.
+void FakeMicroTime_Init(uint32_t start, uint32_t increment);
+                                                 ^
+code-t1/mocks/IO/FakeMicroTime.c:35:50: note: Function 'FakeMicroTime_Init' argument 2 names different: declaration 'increment' definition 'incr'.
+void FakeMicroTime_Init(uint32_t start, uint32_t incr)
+                                                 ^
+code-t1/src/IO/IO.c:32:9: error: Pointer addition with NULL pointer. [nullPointerArithmetic]
+    *(p + addr) = data;
+        ^
+code-t1/src/IO/IO.c:31:18: note: Assignment 'p=0', assigned value is 0
+    ioData * p = 0;
+                 ^
+code-t1/src/IO/IO.c:32:9: note: Null pointer addition
+    *(p + addr) = data;
+        ^
+code-t1/src/IO/IO.c:38:16: error: Pointer addition with NULL pointer. [nullPointerArithmetic]
+    return *(p + addr);
+               ^
+code-t1/src/IO/IO.c:37:18: note: Assignment 'p=0', assigned value is 0
+    ioData * p = 0;
+                 ^
+code-t1/src/IO/IO.c:38:16: note: Null pointer addition
+    return *(p + addr);
+               ^
+code-t1/tests/HomeAutomation/LightSchedulerRandomizeTest.cpp:69:13: error: syntax error [syntaxError]
+            LONGS_EQUAL(LIGHT_STATE_UNKNOWN, LightDriverSpy_GetLastState())
+            ^
+code-t1/tests/HomeAutomation/LightSchedulerTest.cpp:64:13: error: syntax error [syntaxError]
+            LONGS_EQUAL(LIGHT_STATE_UNKNOWN, LightDriverSpy_GetLastState())
+            ^
+code-t1/tests/HomeAutomation/RandomMinuteTest.cpp:48:9: style: The scope of the variable 'minute' can be reduced. [variableScope]
+    int minute;
+        ^
+code-t1/tests/HomeAutomation/RandomMinuteTest.cpp:63:9: style: The scope of the variable 'minute' can be reduced. [variableScope]
+    int minute;
+        ^
+code-t2/mocks/FakeRandomMinute.c:38:48: style:inconclusive: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'. [funcArgNamesDifferent]
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                               ^
+code-t2/mocks/FakeRandomMinute.h:32:48: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'.
+void FakeRandomMinute_SetFirstAndIncrement(int seed, int increment);
+                                               ^
+code-t2/mocks/FakeRandomMinute.c:38:48: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'.
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                               ^
+code-t2/mocks/FakeRandomMinute.c:38:55: style:inconclusive: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'. [funcArgNamesDifferent]
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                                      ^
+code-t2/mocks/FakeRandomMinute.h:32:58: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'.
+void FakeRandomMinute_SetFirstAndIncrement(int seed, int increment);
+                                                         ^
+code-t2/mocks/FakeRandomMinute.c:38:55: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'.
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                                      ^
+code-t2/src/HomeAutomation/LightScheduler.c:207:50: style:inconclusive: Function 'resetRandomize' argument 1 names different: declaration 'e' definition 'event'. [funcArgNamesDifferent]
+static void resetRandomize(ScheduledLightEvent * event)
+                                                 ^
+code-t2/src/HomeAutomation/LightScheduler.c:72:50: note: Function 'resetRandomize' argument 1 names different: declaration 'e' definition 'event'.
+static void resetRandomize(ScheduledLightEvent * e);
+                                                 ^
+code-t2/src/HomeAutomation/LightScheduler.c:207:50: note: Function 'resetRandomize' argument 1 names different: declaration 'e' definition 'event'.
+static void resetRandomize(ScheduledLightEvent * event)
+                                                 ^
+code-t2/src/devices/AcmeWirelessLightDriver.c:49:6: error: Memory leak: self [memleak]
+     return (LightDriver)self;
+     ^
+code-t2/src/devices/MemMappedLightDriver.c:46:5: error: Memory leak: self [memleak]
+    return (LightDriver)self;
+    ^
+code-t2/src/devices/X10LightDriver.c:50:6: error: Memory leak: self [memleak]
+     return (LightDriver)self;
+     ^
+code-t2/tests/HomeAutomation/LightSchedulerRandomizeTest.cpp:85:13: error: syntax error [syntaxError]
+            LONGS_EQUAL(LIGHT_STATE_UNKNOWN, LightDriverSpy_GetLastState())
+            ^
+code-t2/tests/HomeAutomation/LightSchedulerTest.cpp:58:13: error: syntax error [syntaxError]
+            LONGS_EQUAL(LIGHT_STATE_UNKNOWN, LightDriverSpy_GetLastState())
+            ^
+code-t2/tests/HomeAutomation/RandomMinuteTest.cpp:47:9: style: The scope of the variable 'minute' can be reduced. [variableScope]
+    int minute;
+        ^
+code-t2/tests/HomeAutomation/RandomMinuteTest.cpp:62:9: style: The scope of the variable 'minute' can be reduced. [variableScope]
+    int minute;
+        ^
+code-t3/mocks/FakeRandomMinute.c:39:48: style:inconclusive: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'. [funcArgNamesDifferent]
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                               ^
+code-t3/mocks/FakeRandomMinute.h:32:48: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'.
+void FakeRandomMinute_SetFirstAndIncrement(int seed, int increment);
+                                               ^
+code-t3/mocks/FakeRandomMinute.c:39:48: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 1 names different: declaration 'seed' definition 's'.
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                               ^
+code-t3/mocks/FakeRandomMinute.c:39:55: style:inconclusive: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'. [funcArgNamesDifferent]
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                                      ^
+code-t3/mocks/FakeRandomMinute.h:32:58: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'.
+void FakeRandomMinute_SetFirstAndIncrement(int seed, int increment);
+                                                         ^
+code-t3/mocks/FakeRandomMinute.c:39:55: note: Function 'FakeRandomMinute_SetFirstAndIncrement' argument 2 names different: declaration 'increment' definition 'i'.
+void FakeRandomMinute_SetFirstAndIncrement(int s, int i)
+                                                      ^
+code-t3/src/HomeAutomation/LightScheduler.c:208:50: style:inconclusive: Function 'resetRandomize' argument 1 names different: declaration 'e' definition 'event'. [funcArgNamesDifferent]
+static void resetRandomize(ScheduledLightEvent * event)
+                                                 ^
+code-t3/src/HomeAutomation/LightScheduler.c:72:50: note: Function 'resetRandomize' argument 1 names different: declaration 'e' definition 'event'.
+static void resetRandomize(ScheduledLightEvent * e);
+                                                 ^
+code-t3/src/HomeAutomation/LightScheduler.c:208:50: note: Function 'resetRandomize' argument 1 names different: declaration 'e' definition 'event'.
+static void resetRandomize(ScheduledLightEvent * event)
+                                                 ^
+code-t3/src/devices/AcmeWirelessLightDriver.c:75:6: error: Memory leak: self [memleak]
+     return (LightDriver)self;
+     ^
+code-t3/src/devices/MemMappedLightDriver.c:72:5: error: Memory leak: self [memleak]
+    return (LightDriver)self;
+    ^
+code-t3/src/devices/X10LightDriver.c:91:6: error: Memory leak: self [memleak]
+     return (LightDriver)self;
+     ^
+code-t3/tests/HomeAutomation/LightSchedulerRandomizeTest.cpp:70:13: error: syntax error [syntaxError]
+            LONGS_EQUAL(LIGHT_STATE_UNKNOWN, LightDriverSpy_GetLastState())
+            ^
+code-t3/tests/HomeAutomation/LightSchedulerTest.cpp:66:13: error: syntax error [syntaxError]
+            LONGS_EQUAL(LIGHT_STATE_UNKNOWN, LightDriverSpy_GetLastState())
+            ^
+code-t3/tests/HomeAutomation/RandomMinuteTest.cpp:47:9: style: The scope of the variable 'minute' can be reduced. [variableScope]
+    int minute;
+        ^
+code-t3/tests/HomeAutomation/RandomMinuteTest.cpp:62:9: style: The scope of the variable 'minute' can be reduced. [variableScope]
+    int minute;
+        ^
+code/docs/STMicroelectronics/c2414.c:1043:11: style: The scope of the variable 'udCfiAddr' can be reduced. [variableScope]
+   udword udCfiAddr;  /* Holds CFI address */
+          ^
+code/docs/STMicroelectronics/c2414.c:1041:32: style:inconclusive: Function 'FlashReadCfi' argument 1 names different: declaration 'uwCFIFunc' definition 'uwCfiFunc'. [funcArgNamesDifferent]
+ReturnType FlashReadCfi( uword uwCfiFunc, uCPUBusType *ucpCfiValue ) {
+                               ^
+code/docs/STMicroelectronics/c2414.h:427:35: note: Function 'FlashReadCfi' argument 1 names different: declaration 'uwCFIFunc' definition 'uwCfiFunc'.
+  ReturnType  FlashReadCfi( uword uwCFIFunc, uCPUBusType *ucpCFIValue );
+                                  ^
+code/docs/STMicroelectronics/c2414.c:1041:32: note: Function 'FlashReadCfi' argument 1 names different: declaration 'uwCFIFunc' definition 'uwCfiFunc'.
+ReturnType FlashReadCfi( uword uwCfiFunc, uCPUBusType *ucpCfiValue ) {
+                               ^
+code/docs/STMicroelectronics/c2414.c:1041:56: style:inconclusive: Function 'FlashReadCfi' argument 2 names different: declaration 'ucpCFIValue' definition 'ucpCfiValue'. [funcArgNamesDifferent]
+ReturnType FlashReadCfi( uword uwCfiFunc, uCPUBusType *ucpCfiValue ) {
+                                                       ^
+code/docs/STMicroelectronics/c2414.h:427:59: note: Function 'FlashReadCfi' argument 2 names different: declaration 'ucpCFIValue' definition 'ucpCfiValue'.
+  ReturnType  FlashReadCfi( uword uwCFIFunc, uCPUBusType *ucpCFIValue );
+                                                          ^
+code/docs/STMicroelectronics/c2414.c:1041:56: note: Function 'FlashReadCfi' argument 2 names different: declaration 'ucpCFIValue' definition 'ucpCfiValue'.
+ReturnType FlashReadCfi( uword uwCfiFunc, uCPUBusType *ucpCfiValue ) {
+                                                       ^
+code/docs/STMicroelectronics/c2414.c:1095:43: style:inconclusive: Function 'FlashReadDeviceId' argument 1 names different: declaration 'ucpDeviceID' definition 'ucpDeviceId'. [funcArgNamesDifferent]
+ReturnType FlashReadDeviceId(uCPUBusType *ucpDeviceId) {
+                                          ^
+code/docs/STMicroelectronics/c2414.h:428:47: note: Function 'FlashReadDeviceId' argument 1 names different: declaration 'ucpDeviceID' definition 'ucpDeviceId'.
+  ReturnType  FlashReadDeviceId( uCPUBusType *ucpDeviceID);
+                                              ^
+code/docs/STMicroelectronics/c2414.c:1095:43: note: Function 'FlashReadDeviceId' argument 1 names different: declaration 'ucpDeviceID' definition 'ucpDeviceId'.
+ReturnType FlashReadDeviceId(uCPUBusType *ucpDeviceId) {
+                                          ^
+code/docs/STMicroelectronics/c2414.c:1601:41: style:inconclusive: Function 'MyFlashBlockErase' argument 1 names different: declaration 'ublBlockNr' definition 'blockNumber'. [funcArgNamesDifferent]
+ReturnType MyFlashBlockErase(uBlockType blockNumber)
+                                        ^
+code/docs/STMicroelectronics/c2414.h:418:45: note: Function 'MyFlashBlockErase' argument 1 names different: declaration 'ublBlockNr' definition 'blockNumber'.
+  ReturnType  MyFlashBlockErase( uBlockType ublBlockNr );
+                                            ^
+code/docs/STMicroelectronics/c2414.c:1601:41: note: Function 'MyFlashBlockErase' argument 1 names different: declaration 'ublBlockNr' definition 'blockNumber'.
+ReturnType MyFlashBlockErase(uBlockType blockNumber)
+                                        ^
+code/mocks/MockIO.c:130:36: style:inconclusive: Function 'MockIO_Expect_Write' argument 1 names different: declaration 'offset' definition 'addr'. [funcArgNamesDifferent]
+void MockIO_Expect_Write(ioAddress addr, ioData value)
+                                   ^
+code/mocks/MockIO.h:33:36: note: Function 'MockIO_Expect_Write' argument 1 names different: declaration 'offset' definition 'addr'.
+void MockIO_Expect_Write(ioAddress offset, ioData data);
+                                   ^
+code/mocks/MockIO.c:130:36: note: Function 'MockIO_Expect_Write' argument 1 names different: declaration 'offset' definition 'addr'.
+void MockIO_Expect_Write(ioAddress addr, ioData value)
+                                   ^
+code/mocks/MockIO.c:130:49: style:inconclusive: Function 'MockIO_Expect_Write' argument 2 names different: declaration 'data' definition 'value'. [funcArgNamesDifferent]
+void MockIO_Expect_Write(ioAddress addr, ioData value)
+                                                ^
+code/mocks/MockIO.h:33:51: note: Function 'MockIO_Expect_Write' argument 2 names different: declaration 'data' definition 'value'.
+void MockIO_Expect_Write(ioAddress offset, ioData data);
+                                                  ^
+code/mocks/MockIO.c:130:49: note: Function 'MockIO_Expect_Write' argument 2 names different: declaration 'data' definition 'value'.
+void MockIO_Expect_Write(ioAddress addr, ioData value)
+                                                ^
+code/mocks/MockIO.c:136:45: style:inconclusive: Function 'MockIO_Expect_ReadThenReturn' argument 1 names different: declaration 'offset' definition 'addr'. [funcArgNamesDifferent]
+void MockIO_Expect_ReadThenReturn(ioAddress addr, ioData value)
+                                            ^
+code/mocks/MockIO.h:34:46: note: Function 'MockIO_Expect_ReadThenReturn' argument 1 names different: declaration 'offset' definition 'addr'.
+void MockIO_Expect_ReadThenReturn(ioAddress  offset, ioData returnData);
+                                             ^
+code/mocks/MockIO.c:136:45: note: Function 'MockIO_Expect_ReadThenReturn' argument 1 names different: declaration 'offset' definition 'addr'.
+void MockIO_Expect_ReadThenReturn(ioAddress addr, ioData value)
+                                            ^
+code/mocks/MockIO.c:136:58: style:inconclusive: Function 'MockIO_Expect_ReadThenReturn' argument 2 names different: declaration 'returnData' definition 'value'. [funcArgNamesDifferent]
+void MockIO_Expect_ReadThenReturn(ioAddress addr, ioData value)
+                                                         ^
+code/mocks/MockIO.h:34:61: note: Function 'MockIO_Expect_ReadThenReturn' argument 2 names different: declaration 'returnData' definition 'value'.
+void MockIO_Expect_ReadThenReturn(ioAddress  offset, ioData returnData);
+                                                            ^
+code/mocks/MockIO.c:136:58: note: Function 'MockIO_Expect_ReadThenReturn' argument 2 names different: declaration 'returnData' definition 'value'.
+void MockIO_Expect_ReadThenReturn(ioAddress addr, ioData value)
+                                                         ^
+code/src/IO/IO.c:31:9: error: Pointer addition with NULL pointer. [nullPointerArithmetic]
+    *(p + addr) = data;
+        ^
+code/src/IO/IO.c:30:18: note: Assignment 'p=0', assigned value is 0
+    ioData * p = 0;
+                 ^
+code/src/IO/IO.c:31:9: note: Null pointer addition
+    *(p + addr) = data;
+        ^
+code/src/IO/IO.c:36:16: error: Pointer addition with NULL pointer. [nullPointerArithmetic]
+    return *(p + addr);
+               ^
+code/src/IO/IO.c:35:18: note: Assignment 'p=0', assigned value is 0
+    ioData * p = 0;
+                 ^
+code/src/IO/IO.c:36:16: note: Null pointer addition
+    return *(p + addr);
+               ^
+code/src/MyOS/Acme/AcmeOs.c:41:50: warning: Redundant assignment of 'ns' to itself. [selfAssignment]
+void AcmeThread_nanoSleep(unsigned long ns) { ns = ns; }
+                                                 ^
+code/src/MyOS/Acme/AcmeOs.c:42:43: warning: Redundant assignment of 'result' to itself. [selfAssignment]
+void AcmeThread_exit(int result) { result = result; }
+                                          ^
+code/src/MyOS/Acme/AcmeOs.c:41:50: style: Variable 'ns' is assigned a value that is never used. [unreadVariable]
+void AcmeThread_nanoSleep(unsigned long ns) { ns = ns; }
+                                                 ^
+code/src/MyOS/Acme/AcmeOs.c:42:43: style: Variable 'result' is assigned a value that is never used. [unreadVariable]
+void AcmeThread_exit(int result) { result = result; }
+                                          ^
+code/src/MyOS/Acme/Thread.c:59:12: warning: Redundant assignment of 'result' to itself. [selfAssignment]
+    result = result;
+           ^
+code/src/MyOS/Acme/Thread.c:59:12: style: Variable 'result' is assigned a value that is never used. [unreadVariable]
+    result = result;
+           ^
+code/tests/IO/FlashTest.cpp:35:9: style: The scope of the variable 'result' can be reduced. [variableScope]
+    int result;
+        ^
+code/tests/IO/LegacyFlashTest.cpp:32:9: style: The scope of the variable 'result' can be reduced. [variableScope]
+    int result;
+        ^
+code/tests/util/CircularBufferPrintTest.cpp:36:18: style: The scope of the variable 'actualOutput' can be reduced. [variableScope]
+    const char * actualOutput;
+                 ^
+code/unity.framework/examples/src/ProductionCode.c:24:26: warning: Either the condition 'i<=8' is redundant or the array 'NumbersToFind[9]' is accessed at index 9, which is out of bounds. [arrayIndexOutOfBoundsCond]
+        if (NumbersToFind[i] == NumberToFind) //Yikes!  I'm getting run after the loop finishes instead of during it!
+                         ^
+code/unity.framework/examples/src/ProductionCode.c:22:14: note: Assuming that condition 'i<=8' is not redundant
+    while (i <= 8) //Notice I should have been in braces
+             ^
+code/unity.framework/examples/src/ProductionCode.c:24:26: note: Array index out of bounds
+        if (NumbersToFind[i] == NumberToFind) //Yikes!  I'm getting run after the loop finishes instead of during it!
+                         ^
+code/unity.framework/extras/fixture/src/unity_fixture.c:387:19: style: Expression is always true because 'else if' condition is opposite to previous condition at line 379. [multiCondition]
+    else if (Unity.CurrentTestFailed)
+                  ^
+code/unity.framework/extras/fixture/src/unity_fixture.c:379:14: note: first condition
+    else if (!Unity.CurrentTestFailed)
+             ^
+code/unity.framework/extras/fixture/src/unity_fixture.c:387:19: note: else if condition is opposite to first condition
+    else if (Unity.CurrentTestFailed)
+                  ^
+code/unity.framework/extras/fixture/src/unity_fixture.c:207:5: error: Memory leak: guard [memleak]
+    return (void*)mem;
+    ^
+code/unity.framework/extras/fixture/src/unity_fixture.c:163:47: style:inconclusive: Function 'UnityMalloc_MakeMallocFailAfterCount' argument 1 names different: declaration 'count' definition 'countdown'. [funcArgNamesDifferent]
+void UnityMalloc_MakeMallocFailAfterCount(int countdown)
+                                              ^
+code/unity.framework/extras/fixture/src/unity_fixture.h:89:47: note: Function 'UnityMalloc_MakeMallocFailAfterCount' argument 1 names different: declaration 'count' definition 'countdown'.
+void UnityMalloc_MakeMallocFailAfterCount(int count);
+                                              ^
+code/unity.framework/extras/fixture/src/unity_fixture.c:163:47: note: Function 'UnityMalloc_MakeMallocFailAfterCount' argument 1 names different: declaration 'count' definition 'countdown'.
+void UnityMalloc_MakeMallocFailAfterCount(int countdown)
+                                              ^
+code/unity.framework/extras/fixture/src/unity_fixture.c:295:31: style:inconclusive: Function 'UnityPointer_Set' argument 1 names different: declaration 'ptr' definition 'pointer'. [funcArgNamesDifferent]
+void UnityPointer_Set(void ** pointer, void * newValue)
+                              ^
+code/unity.framework/extras/fixture/src/unity_fixture_internals.h:43:31: note: Function 'UnityPointer_Set' argument 1 names different: declaration 'ptr' definition 'pointer'.
+void UnityPointer_Set(void ** ptr, void * newValue);
+                              ^
+code/unity.framework/extras/fixture/src/unity_fixture.c:295:31: note: Function 'UnityPointer_Set' argument 1 names different: declaration 'ptr' definition 'pointer'.
+void UnityPointer_Set(void ** pointer, void * newValue)
+                              ^
+code/unity.framework/extras/fixture/src/unity_fixture.c:281:27: style: struct member '_PointerPair::next' is never used. [unusedStructMember]
+    struct _PointerPair * next;
+                          ^
+code/unity.framework/extras/fixture/test/unity_fixture_Test.c:324:5: error: Common realloc mistake: 'm' nulled but not freed upon failure [memleakOnRealloc]
+    m = realloc(m, 100);
+    ^
+code/unity.framework/extras/fixture/test/unity_fixture_Test.c:311:5: error: Uninitialized variable: TestAbortFrame [uninitvar]
+    EXPECT_ABORT_END
+    ^
+code/unity.framework/extras/fixture/test/unity_fixture_Test.c:325:5: error: Uninitialized variable: TestAbortFrame [uninitvar]
+    EXPECT_ABORT_END
+    ^
+code/unity.framework/extras/fixture/test/unity_fixture_Test.c:292:15: style: Variable 'm' is allocated memory that is never used. [unusedAllocatedMemory]
+    void* m = malloc(10);
+              ^
+code/unity.framework/src/unity.c:102:13: style: The scope of the variable 'next_divisor' can be reduced. [variableScope]
+    _U_SINT next_divisor;
+            ^
+code/unity.framework/src/unity.c:135:13: style: The scope of the variable 'next_divisor' can be reduced. [variableScope]
+    _U_UINT next_divisor;
+            ^
+code/unity.framework/src/unity.c:159:13: style: The scope of the variable 'nibble' can be reduced. [variableScope]
+    _U_UINT nibble;
+            ^
+code/unity.framework/src/unity.c:675:11: style: The scope of the variable 'i' can be reduced. [variableScope]
+    _UU32 i;
+          ^
+code/unity.framework/src/unity.c:99:37: style:inconclusive: Function 'UnityPrintNumber' argument 1 names different: declaration 'number' definition 'number_to_print'. [funcArgNamesDifferent]
+void UnityPrintNumber(const _U_SINT number_to_print)
+                                    ^
+code/unity.framework/src/unity_internals.h:211:37: note: Function 'UnityPrintNumber' argument 1 names different: declaration 'number' definition 'number_to_print'.
+void UnityPrintNumber(const _U_SINT number);
+                                    ^
+code/unity.framework/src/unity.c:99:37: note: Function 'UnityPrintNumber' argument 1 names different: declaration 'number' definition 'number_to_print'.
+void UnityPrintNumber(const _U_SINT number_to_print)
+                                    ^
+code/unity.framework/src/unity.c:157:59: style:inconclusive: Function 'UnityPrintNumberHex' argument 2 names different: declaration 'nibbles' definition 'nibbles_to_print'. [funcArgNamesDifferent]
+void UnityPrintNumberHex(const _U_UINT number, const char nibbles_to_print)
+                                                          ^
+code/unity.framework/src/unity_internals.h:213:59: note: Function 'UnityPrintNumberHex' argument 2 names different: declaration 'nibbles' definition 'nibbles_to_print'.
+void UnityPrintNumberHex(const _U_UINT number, const char nibbles);
+                                                          ^
+code/unity.framework/src/unity.c:157:59: note: Function 'UnityPrintNumberHex' argument 2 names different: declaration 'nibbles' definition 'nibbles_to_print'.
+void UnityPrintNumberHex(const _U_UINT number, const char nibbles_to_print)
+                                                          ^
+code/unity.framework/src/unity.c:822:28: style:inconclusive: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
+void UnityFail(const char* msg, const UNITY_LINE_TYPE line)
+                           ^
+code/unity.framework/src/unity_internals.h:271:28: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityFail(const char* message, const UNITY_LINE_TYPE line);
+                           ^
+code/unity.framework/src/unity.c:822:28: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityFail(const char* msg, const UNITY_LINE_TYPE line)
+                           ^
+code/unity.framework/src/unity.c:841:30: style:inconclusive: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
+void UnityIgnore(const char* msg, const UNITY_LINE_TYPE line)
+                             ^
+code/unity.framework/src/unity_internals.h:273:30: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityIgnore(const char* message, const UNITY_LINE_TYPE line);
+                             ^
+code/unity.framework/src/unity.c:841:30: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
+void UnityIgnore(const char* msg, const UNITY_LINE_TYPE line)
+                             ^
+code/unity.framework/test/testparameterized.c:61:1: error: There is an unknown macro here somewhere. Configuration is required. If TEST_CASE is a macro then please configure it. [unknownMacro]
+TEST_CASE(0)
+^
+code/unity/LedDriver/LedDriverTest.c:46:14: style: Local variable 'virtualLeds' shadows outer variable [shadowVariable]
+    uint16_t virtualLeds = 0xffff;
+             ^
+code/unity/LedDriver/LedDriverTest.c:34:17: note: Shadowed declaration
+static uint16_t virtualLeds;
+                ^
+code/unity/LedDriver/LedDriverTest.c:46:14: note: Shadow variable
+    uint16_t virtualLeds = 0xffff;
+             ^
+code/src/MyOS/Acme/AcmeOs.c:41:0: style: The function 'AcmeThread_nanoSleep' is never used. [unusedFunction]
+
+^
+code/unity.framework/examples/helper/UnityHelper.c:14:0: style: The function 'AssertEqualExampleStruct' is never used. [unusedFunction]
+
+^
+code-t0/mocks/FakeRandomMinute.c:32:0: style: The function 'FakeRandomMinute_Reset' is never used. [unusedFunction]
+
+^
+code/docs/STMicroelectronics/c2414.c:324:0: style: The function 'FlashBlockLockDown' is never used. [unusedFunction]
+
+^
+code/docs/STMicroelectronics/c2414.c:663:0: style: The function 'FlashClearStatusRegister' is never used. [unusedFunction]
+
+^
+code/docs/STMicroelectronics/c2414.c:706:0: style: The function 'FlashDoubleProgram' is never used. [unusedFunction]
+
+^
+code/docs/STMicroelectronics/c2414.c:770:0: style: The function 'FlashErrorStr' is never used. [unusedFunction]
+
+^
+code/docs/STMicroelectronics/c2414.c:975:0: style: The function 'FlashProtectionRegisterProgram' is never used. [unusedFunction]
+
+^
+code/docs/STMicroelectronics/c2414.c:1240:0: style: The function 'FlashReadProtectionRegister' is never used. [unusedFunction]
+
+^
+code/docs/STMicroelectronics/c2414.c:1273:0: style: The function 'FlashReadStatusRegister' is never used. [unusedFunction]
+
+^
+code/mocks/cmock/MockIO.c:169:0: style: The function 'IO_Read_ExpectAndReturn' is never used. [unusedFunction]
+
+^
+code/mocks/cmock/MockIO.c:277:0: style: The function 'IO_Write_Expect' is never used. [unusedFunction]
+
+^
+code/mocks/cmock/MockIO.c:70:0: style: The function 'MockIO_Init' is never used. [unusedFunction]
+
+^
+code/mocks/cmock/MockIO.c:63:0: style: The function 'MockIO_Verify' is never used. [unusedFunction]
+
+^
+code/docs/STMicroelectronics/c2414.c:1601:0: style: The function 'MyFlashBlockErase' is never used. [unusedFunction]
+
+^
+code/mocks/RuntimeErrorStub.c:42:0: style: The function 'RuntimeError' is never used. [unusedFunction]
+
+^
+code/mocks/RuntimeErrorStub.c:33:0: style: The function 'RuntimeErrorStub_Reset' is never used. [unusedFunction]
+
+^
+code/unity.framework/examples/src/ProductionCode2.c:12:0: style: The function 'ThisFunctionHasNotBeenTested' is never used. [unusedFunction]
+
+^
+code-t1/src/util/TimeService_Helpers.c:63:0: style: The function 'TimeService_MatchesMinuteOfDay' is never used. [unusedFunction]
+
+^
+code-t1/src/util/TimeService_Helpers.c:30:0: style: The function 'TimeService_MatchesNow' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:382:0: style: The function 'UnityAssertBits' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:539:0: style: The function 'UnityAssertEqualFloatArray' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:424:0: style: The function 'UnityAssertEqualIntArray' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:769:0: style: The function 'UnityAssertEqualMemory' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:403:0: style: The function 'UnityAssertEqualNumber' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:670:0: style: The function 'UnityAssertEqualString' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:709:0: style: The function 'UnityAssertEqualStringArray' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:593:0: style: The function 'UnityAssertFloatsWithin' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:631:0: style: The function 'UnityAssertNumbersWithin' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:859:0: style: The function 'UnityDefaultTestRun' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:822:0: style: The function 'UnityFail' is never used. [unusedFunction]
+
+^
+code/unity.framework/src/unity.c:841:0: style: The function 'UnityIgnore' is never used. [unusedFunction]
+
+^
+code/unity.framework/extras/fixture/src/unity_fixture.c:127:0: style: The function 'UnityIgnoreTest' is never used. [unusedFunction]
+
+^
+code/unity.framework/extras/fixture/test/unity_output_Spy.c:42:0: style: The function 'UnityOutputCharSpy_OutputChar' is never used. [unusedFunction]
+
+^
+code/unity.framework/extras/fixture/src/unity_fixture.c:295:0: style: The function 'UnityPointer_Set' is never used. [unusedFunction]
+
+^
+code/unity.framework/extras/fixture/src/unity_fixture.c:80:0: style: The function 'UnityTestRunner' is never used. [unusedFunction]
+
+^
+code/tests/zune/RtcTimeTest.cpp:28:0: style: The function 'monitorLoop' is never used. [unusedFunction]
+
+^
+code/unity.framework/examples/test/no_ruby/TestProductionCode2_Runner.c:35:0: style: The function 'resetTest' is never used. [unusedFunction]
+
+^
+code/unity.framework/examples/test/no_ruby/TestProductionCode2_Runner.c:23:0: style: The function 'runTest' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:390:0: style: The function 'testEqualBits' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:446:0: style: The function 'testEqualChars' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1323:0: style: The function 'testEqualFloatArrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:997:0: style: The function 'testEqualHEX16Arrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1240:0: style: The function 'testEqualHEX64Arrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1041:0: style: The function 'testEqualHEX8Arrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:953:0: style: The function 'testEqualHEXArrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:352:0: style: The function 'testEqualHex16s' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:371:0: style: The function 'testEqualHex32s' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1176:0: style: The function 'testEqualHex64s' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:314:0: style: The function 'testEqualHex8s' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:333:0: style: The function 'testEqualHex8sNegatives' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:929:0: style: The function 'testEqualInt16Arrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:861:0: style: The function 'testEqualInt8Arrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:797:0: style: The function 'testEqualIntArrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:263:0: style: The function 'testEqualInts' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:757:0: style: The function 'testEqualMemory' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1085:0: style: The function 'testEqualMemoryArrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:485:0: style: The function 'testEqualPointers' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:406:0: style: The function 'testEqualShorts' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:749:0: style: The function 'testEqualStringArrayIfBothNulls' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:678:0: style: The function 'testEqualStringArrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:605:0: style: The function 'testEqualStrings' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:616:0: style: The function 'testEqualStringsWithCarriageReturnsAndLineFeeds' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:466:0: style: The function 'testEqualUChars' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:885:0: style: The function 'testEqualUIntArrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:426:0: style: The function 'testEqualUShorts' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:283:0: style: The function 'testEqualUints' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:115:0: style: The function 'testFail' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:68:0: style: The function 'testFalse' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1294:0: style: The function 'testFloatsEqual' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1302:0: style: The function 'testFloatsNotEqual' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1309:0: style: The function 'testFloatsNotEqualNegative1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1316:0: style: The function 'testFloatsNotEqualNegative2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1287:0: style: The function 'testFloatsNotWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1279:0: style: The function 'testFloatsWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:584:0: style: The function 'testHEX16sNotWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:577:0: style: The function 'testHEX16sWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:563:0: style: The function 'testHEX32sNotWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:570:0: style: The function 'testHEX32sNotWithinDeltaEvenThoughASignedIntWouldPass' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:556:0: style: The function 'testHEX32sWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1226:0: style: The function 'testHEX64sNotWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1233:0: style: The function 'testHEX64sNotWithinDeltaEvenThoughASignedIntWouldPass' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1219:0: style: The function 'testHEX64sWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:598:0: style: The function 'testHEX8sNotWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:591:0: style: The function 'testHEX8sWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:149:0: style: The function 'testIgnore' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:157:0: style: The function 'testIgnoreMessage' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1167:0: style: The function 'testIgnoredAndThenFailInTearDown' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:521:0: style: The function 'testIntsNotWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:509:0: style: The function 'testIntsWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:122:0: style: The function 'testIsNull' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:131:0: style: The function 'testIsNullShouldFailIfNot' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:303:0: style: The function 'testNotEqual' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:172:0: style: The function 'testNotEqualBits' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1357:0: style: The function 'testNotEqualFloatArrays1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1367:0: style: The function 'testNotEqualFloatArrays2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1377:0: style: The function 'testNotEqualFloatArrays3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1347:0: style: The function 'testNotEqualFloatArraysActualNull' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1337:0: style: The function 'testNotEqualFloatArraysExpectedNull' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1387:0: style: The function 'testNotEqualFloatArraysNegative1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1397:0: style: The function 'testNotEqualFloatArraysNegative2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1407:0: style: The function 'testNotEqualFloatArraysNegative3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1011:0: style: The function 'testNotEqualHEX16Arrays1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1021:0: style: The function 'testNotEqualHEX16Arrays2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1031:0: style: The function 'testNotEqualHEX16Arrays3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1254:0: style: The function 'testNotEqualHEX64Arrays1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1264:0: style: The function 'testNotEqualHEX64Arrays2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1055:0: style: The function 'testNotEqualHEX8Arrays1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1065:0: style: The function 'testNotEqualHEX8Arrays2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1075:0: style: The function 'testNotEqualHEX8Arrays3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:967:0: style: The function 'testNotEqualHEXArrays1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:977:0: style: The function 'testNotEqualHEXArrays2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:987:0: style: The function 'testNotEqualHEXArrays3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:215:0: style: The function 'testNotEqualHex16s' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:227:0: style: The function 'testNotEqualHex16sIfSigned' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:239:0: style: The function 'testNotEqualHex32s' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:251:0: style: The function 'testNotEqualHex32sIfSigned' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1195:0: style: The function 'testNotEqualHex64s' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1207:0: style: The function 'testNotEqualHex64sIfSigned' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:191:0: style: The function 'testNotEqualHex8s' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:203:0: style: The function 'testNotEqualHex8sIfSigned' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:943:0: style: The function 'testNotEqualInt16Arrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:875:0: style: The function 'testNotEqualInt8Arrays' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:831:0: style: The function 'testNotEqualIntArrays1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:841:0: style: The function 'testNotEqualIntArrays2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:851:0: style: The function 'testNotEqualIntArrays3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:821:0: style: The function 'testNotEqualIntArraysNullActual' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:811:0: style: The function 'testNotEqualIntArraysNullExpected' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:165:0: style: The function 'testNotEqualInts' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:769:0: style: The function 'testNotEqualMemory1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:776:0: style: The function 'testNotEqualMemory2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:783:0: style: The function 'testNotEqualMemory3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:790:0: style: The function 'testNotEqualMemory4' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1119:0: style: The function 'testNotEqualMemoryArrays1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1129:0: style: The function 'testNotEqualMemoryArrays2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1139:0: style: The function 'testNotEqualMemoryArrays3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1109:0: style: The function 'testNotEqualMemoryArraysActualNull' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1099:0: style: The function 'testNotEqualMemoryArraysExpectedNull' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:502:0: style: The function 'testNotEqualPointers' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:627:0: style: The function 'testNotEqualString1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:634:0: style: The function 'testNotEqualString2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:641:0: style: The function 'testNotEqualString3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:648:0: style: The function 'testNotEqualString4' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:655:0: style: The function 'testNotEqualString5' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:689:0: style: The function 'testNotEqualStringArray1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:699:0: style: The function 'testNotEqualStringArray2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:709:0: style: The function 'testNotEqualStringArray3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:719:0: style: The function 'testNotEqualStringArray4' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:729:0: style: The function 'testNotEqualStringArray5' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:739:0: style: The function 'testNotEqualStringArray6' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:671:0: style: The function 'testNotEqualString_ActualStringIsNull' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:664:0: style: The function 'testNotEqualString_ExpectedStringIsNull' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:899:0: style: The function 'testNotEqualUIntArrays1' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:909:0: style: The function 'testNotEqualUIntArrays2' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:919:0: style: The function 'testNotEqualUIntArrays3' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:179:0: style: The function 'testNotEqualUInts' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:94:0: style: The function 'testNotFalse' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:108:0: style: The function 'testNotNotEqual' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:140:0: style: The function 'testNotNullShouldFailIfNULL' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:87:0: style: The function 'testNotTrue' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:101:0: style: The function 'testNotUnless' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:80:0: style: The function 'testNotVanilla' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:75:0: style: The function 'testPreviousPass' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:1149:0: style: The function 'testProtection' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:61:0: style: The function 'testTrue' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:535:0: style: The function 'testUIntsNotWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:549:0: style: The function 'testUIntsNotWithinDeltaEvenThoughASignedIntWouldPassBigFirst' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:542:0: style: The function 'testUIntsNotWithinDeltaEvenThoughASignedIntWouldPassSmallFirst' is never used. [unusedFunction]
+
+^
+code/unity.framework/test/testunity.c:528:0: style: The function 'testUIntsWithinDelta' is never used. [unusedFunction]
+
+^
+code/unity.framework/extras/fixture/src/unity_fixture.c:238:0: style: The function 'unity_calloc' is never used. [unusedFunction]
+
+^
+code/unity.framework/extras/fixture/src/unity_fixture.c:245:0: style: The function 'unity_realloc' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
